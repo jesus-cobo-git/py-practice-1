@@ -46,7 +46,8 @@ print("Number of days left until 2045:", days_left)
 '''
 Exercise 4:** Check if the word "IA" is includes in the story.
 '''
-ia_in_story = False # write your code here
+# write your code here
+ia_in_story = "IA" in story
 if (ia_in_story):
   print("The word 'IA' is in the story")
 else:
