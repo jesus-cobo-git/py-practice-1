@@ -58,13 +58,21 @@ else:
 '''
 Exercise 5:** Create a list of the words in the story and print the first 10 words.
 '''
-words = [] # write your code here
-print("First 10 words in the story:", words)
+words = story.split()
+
+# Get the first 10 words
+first_10_words = words[:10]
+
+# Print the first 10 words
+print("First 10 words in the story:", first_10_words)
+ # write your code here
+
 
 '''
 Exercise 6:** Create a list of the words in the story and print the last 10 words.
 '''
-print("Last 10 words in the story:", words)
+last_10_words = words[-10:]
+print("Last 10 words in the story:", last_10_words)
 
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
