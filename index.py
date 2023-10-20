@@ -25,14 +25,21 @@ Exercise 2:** Calculate the number of YEARS until 2045.
 Use the variable `year` to store the current year.
 '''
 year = 2023 # get current year
-years_left = 0 # write your code here
+future = 2045
+years_left = future-year
 print("Number of years left:", years_left)
 
 '''
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
-days_left = 0 # write your code here
-print("Number of days left:", days_left)
+
+# Calculate the difference in days
+days_left = 22*365 
+print("Number of days left until 2045:", days_left)
+
+
+
+
 
 # 3. Booleans
 
