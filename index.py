@@ -13,7 +13,7 @@ Exercise 1
 Create a Python program that counts the number of characters
 in the provided story (including spaces and punctuation).
 '''
-character_count = 0 # write your code here
+character_count = 1 # write your code here
 print("Number of characters in the story:", character_count)
 
 # Numbers
